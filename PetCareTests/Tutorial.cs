@@ -65,7 +65,7 @@ class DemoQa
 
         var resultMessage = driver.FindElementByClassName("wpcf7-mail-sent-ok");
         Assert.That(resultMessage.Text, Is.EqualTo("Your message was sent successfully. Thanks."));
-
+        // coment test
         driver.Quit();
     }
 }
